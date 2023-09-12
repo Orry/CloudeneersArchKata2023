@@ -3,4 +3,7 @@ Defines the boundaries between the system and its communication counterparts (ad
 
 ## Business Context
 
+Actors: Planner, Traveler, Road Warrior Employee, Admin
+
 ## Technical Context
+
