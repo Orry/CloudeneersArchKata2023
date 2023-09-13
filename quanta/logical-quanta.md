@@ -1,5 +1,5 @@
 ## RoadWarrior Quantum
-
+![images](../diagrams/RoadWarrior-Logical-Architecture.jpg)
 
 ### Components and Responsibilities
 * **Presentation layer**
