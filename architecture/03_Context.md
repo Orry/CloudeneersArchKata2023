@@ -1,11 +1,31 @@
 # Context
+3. [Context](#context)
+    1. [Business Context](#business-context)
+    2. [Technical Context](#technical-context)
+
 Defines the boundaries between the system and its communication counterparts (adjacent systems and users). It outlines the external interfaces, presenting both a business/domain viewpoint and a technical standpoint.
 
 ## Business Context
-We concentrate here on the main actors ans exernal systems. We differntiate communcation and supplier externla systems. Some grey systems are for future use, but not used for the first RoadWorriar product.
-![context](../diagrams/ARCH-KATA-00_System business context.png)
+We concentrate here on the main actors and external systems. We differentiate communication and supplier external systems. Some grey systems are for future use, but not used for the first Road Warrior product.
+
+![context](../diagrams/ARCH-KATA-00_System_business_context.png)
+
+### Travel Assistant
+Actor which acts as the preferred travel agency agent for quick problem resolution.
+### Traveler
+The actual Traveler interacting with the Road Warrior system.
+### Email Integration
+The module responsible for polling and processing travel-related emails.
+### Sharing and Social Media Integration
+The module responsible for enabling users to share trip information on social media platforms.
+### Travel Systems Integration
+The component that interfaces with external travel systems (e.g., SABRE, APOLLO) for real-time updates.
 
 
 ## Technical Context
 We only name the name protocols and formats, which must be refined later.
-![context](../diagrams/ARCH-KATA-00_System technical context.png)
+
+![context](../diagrams/ARCH-KATA-00_System_technical_context.png)
+
+[<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
+

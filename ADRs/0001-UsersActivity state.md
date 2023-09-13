@@ -1,8 +1,9 @@
-**Date:** 2023-09-12
+# 2. UI scopes
 
-**Status:** Accepted
+## Status
+Accepted
 
-# Context
+## Context
 Requirement interpretation: 
 Requirement refers to the "active users" amount. We need to separate Active and other users naming.
 Also defining how to distinguish active users.
