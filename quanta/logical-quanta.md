@@ -3,7 +3,7 @@
 
 ### Components and Responsibilities
 * **Presentation layer**
-  * Progressive Web App (PWA) allow application to be developed that can be accesses via web browsers but behave like native app.
+	Progressive Web App (PWA) allow application to be developed that can be accesses via web browsers but behave like native app.
 	Following are some key features of PWA:
 	* Cross-platform compatible
 	* Provide excellent offline support
