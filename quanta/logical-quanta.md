@@ -60,3 +60,8 @@
   * SocialMedia
 	* Single getway to post/ share user trip data to various social media platforms, like X (formerly Twitter), Facebook, Instagram, etc.
 	* Pre-authorize access to user social media account for efficient usage.
+* **Persistence layer**
+  * Database
+	* Transactional document, relational database
+  	* Anlytical (for Dashbaord, Reports)  relational database
+  *  Cache: for often read data (main cities, countries, power traveler)
