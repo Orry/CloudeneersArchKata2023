@@ -3,10 +3,26 @@
 
 ### Components and Responsibilities
 * **Presentation layer**
-  * Develop using Progressive Web App (PWA)
+  * Progressive Web App (PWA) allow application to be developed that can be accesses via web browsers but behave like native app.
+	Following are some key features of PWA:
+	* Cross-platform compatible
+	* Provide excellent offline support
+	* Support faster development
+	* Deployment process is seamless and does not depend on app stores
+	
 	![images](../diagrams/Logical-Architecture-Charateristics.jpg)
 
 *  **API Gateway**
+	API gateway to act as a single entry point for collection of microservices.
+	Central entity to manage, route and secure API requests and responses.
+	Following are some key features of API Gateway:
+	* Request routing
+	* Load balancing
+	* Authentication and authorization
+	* Rate limiting and throttling
+	* Security
+	* Logging and monitoring
+	* Caching
 	
 * **Services**
   * EmailScanner
