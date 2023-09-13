@@ -18,6 +18,6 @@ We are delighted to participate in Architectural Kata 2023. Prior to unveiling o
 >> Sandeep Gaikwad - Senior Solution Architect, Digital Application Hub 
 >>> Responsible for designing, developing and modernizing large enterprise applications in various technologies like Java, .NET, Python, Frontend, Cloud...
 
-> ![Kutuzov!]("../images/12092023-Ilia Kutuzov.jpg" "Ilia Kutuzov")
+> ![Kutuzov!](../images/12092023-Ilia Kutuzov.jpg "Ilia Kutuzov")
 >> Ilia Kutuzov - Solution Architect, CI/CD Hub
 >>> Driving DevOps toolset rollout and delivering stable automation directly to the projects.
