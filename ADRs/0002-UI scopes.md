@@ -1,11 +1,12 @@
-*Date:** 2023-09-12
+# 2. UI scopes
+Date: 2023-09-13
+## Status
+Accepted
 
-**Status:** Accepted
-
-# Context
+## Context
 UI functionality needs to be limited and UI's need to be defined
 
-# Decision
+## Decision
 Active and Inactive users - same UI.
 * **Active users** - best SLA's. Offline mode support required. Storing data for offline mode in-advance.
 * **Inactive users** - major functionality dashboard and manual inputs.
