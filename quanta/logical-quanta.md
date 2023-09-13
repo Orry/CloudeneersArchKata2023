@@ -24,6 +24,7 @@
 	* Security
 	* Logging and monitoring
 	* Caching
+ 	* API Management evolution 
 	
 * **Services**
   * EmailScanner
