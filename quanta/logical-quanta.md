@@ -1,5 +1,5 @@
 ## RoadWarrior Quantum
-![images](../diagrams/quanta/RoadWarrior-Logical-Architecture.jpg)
+![images](../diagrams/RoadWarrior-Logical-Architecture.jpg)
 
 ### Components and Responsibilities
 * **Presentation layer**
@@ -8,10 +8,10 @@
  
 * **Presentation layer**
   * API Gateway
-	* .
-	* .
 	
-* ** Services**
+	
+	
+* **Services**
   * EmailScanner
   * EmailParser
   * AgencyManager
