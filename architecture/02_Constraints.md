@@ -5,7 +5,7 @@ At the project's outset, several constraints were incorporated into the design o
 
 
 ## Organizational Constraints
-
+As a startup we use the fremium model for road worrior. We are financed by seed fund for the first round and by the affiliate fees from teh partners. 
 ## Conventions
 | Conventions                           |                                                                         Motivation                                                                          | 
 |---------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|

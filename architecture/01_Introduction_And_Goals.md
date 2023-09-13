@@ -3,6 +3,9 @@
 A new startup wants to build the next generation online trip management dashboard to allow travelers to see all
 of their existing reservations organized by trip either online (web) or through their mobile device.
 
+# vison
+"All your travel information in on place world wide"
+
 ## Essential Features
 - Poll email looking for travel-related emails
 - Filter and whitelist certain emails
