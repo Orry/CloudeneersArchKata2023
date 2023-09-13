@@ -24,7 +24,6 @@
 	* Security
 	* Logging and monitoring
 	* Caching
- 	* API Management evolution 
 	
 * **Services**
   * EmailScanner
@@ -55,6 +54,6 @@
 	* Central hub to perform all notification tasks via various services, like push notification, email, WhatsApp, SMS. etc.
   * UpdateMerger
 	* Identify duplicate trips.
-	* Merge data from duplicate trips and ensure data integrity.
+	* Merge data from duplicate trips and push integrated data to database.
   * SocialSharing
 	* Common interface to post/ share user trip data to various social media platforms, like X (formerly Twitter), Facebook, Instagram, etc.
