@@ -1,17 +1,10 @@
 ## RoadWarrior Quantum
-![images](../diagrams/RoadWarrior-Logical-Architecture.jpg)
+
 
 ### Components and Responsibilities
 * **Presentation layer**
-  * Progressive Web App (PWA)
-	* 
-	* PWA is a web application that can be accessed through a web browser but behaves like a native app with offline support and home screen icons. 
-	* PWAs are designed to work on any platform and device, and don't need to be downloaded from app stores.
-	* PWAs provide a better user experience as they can be designed to work effectively in offline mode or with limited connectivity.
-	* PWAs can run on any device with a modern browser thus providing a consistent experience across platforms.
-	* PWAs are designed to be fast and responsive, improving the overall user experience.
-	* PWAs can offer features like push notifications, which can help to keep users engaged with your app.
-	* PWAs can be developed and deployed quickly and at a lower cost compared to native apps.
+  * Develop using Progressive Web App (PWA)
+	![images](../diagrams/Logical-Architecture-Charateristics.jpg)
 
 *  **API Gateway**
 	
