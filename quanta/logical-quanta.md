@@ -23,6 +23,7 @@
 	* Security
 	* Logging and monitoring
 	* Caching
+ 	* API Management evolution 
 	
 * **Services**
   * EmailScanner
@@ -40,7 +41,7 @@
 	* Prioratization of trips based various parameters.
 	* Allow updates to user trips.
   * TravelDashboard
-   * Construct data structures to be served to the Dashboard. 
+  	* Construct data structures to be served to the Dashboard. 
   * PersonalAccountVault
 	* Manage user account details.
   * UserReporting
