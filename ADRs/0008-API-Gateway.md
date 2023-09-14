@@ -1,10 +1,9 @@
-# 7. Message Broker
+# 8. API Gateway
+
 Date: 2023-09-13
 ## Status
 
 Accepted
-
-# Architecture Decision Record (ADR)
 
 ## Context
 

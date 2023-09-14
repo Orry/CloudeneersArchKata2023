@@ -36,7 +36,7 @@ The following organizational constraints are defined:
 | Team                         |                                 The [Cloudeneers](../team/introduction.md)  supported by materials and resources provided by Marc Richards and Neal Ford.                                  |
 | Timeline                     |                               Start of the Kata was the 11th of september 2023. Solutions in the Github repos are due by 11:59pm ET Saturday, September 16.                                |
 | Tools and version management | Generating ideas in Miro, managing tasks through GitHub Projects, creating designs with draw.io and Figma, and documenting outcomes within GitHub, with updates pushed using IntelliJ IDE. |
-| Business Model               |                   As a startup we use the freemium model for Road Warrior. We are financed by seed fund for the first round and by the affiliate fees from teh partners.                   |
+| Business Model               |                   As a startup we use the freemium model for Road Warrior. We are financed by seed fund for the first round and by the affiliate fees from the partners.                   |
 
 
 ## Conventions

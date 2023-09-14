@@ -6,15 +6,15 @@
       3. [Services](#services)
          1. [EmailScanner](#emailscanner)
          2. [EmailParser](#emailparser)
-         3. [DataSupplier](#datasupplier)
-         4. [TripPlanner](#tripplanner)
-         5. [TripDashboard](#tripdashboard)
-         6. [PersonalAccountVault](#personalaccountvault)
-         7. [UserReporting](#userreporting)
-         8. [DataAnalytics](#dataanalytics)
-         9. [Notification](#notification)
-         10. [UpdateMerger](#updatemerger)
-         11. [SocialSharing](#socialsharing)
+         3. [UpdateMerger](#updatemerger)
+         4. [DataSupplier](#datasupplier)
+         5. [TripPlanner](#tripplanner)
+         6. [TripDashboard](#tripdashboard)
+         7. [Notification](#notification)
+         8. [SocialSharing](#socialsharing)
+         9. [PersonalAccountVault](#personalaccountvault)
+         10. [UserReporting](#userreporting)
+         11. [DataAnalytics](#dataanalytics)
 
 > "An independently deployable artifact with high functional cohesion and synchronous connascence" (Fundamentals of Software Architecture by Mark Richards an Neal Ford)
 
@@ -65,6 +65,12 @@ Below, you will discover the system's contemplated services. Please note that cr
 
 [Go to whitebox view](../quanta/1-emaildata-collector-quanta.md)
 
+#### UpdateMerger
+- Identifies duplicate trips.
+- Merges data from duplicate trips and pushes integrated data to the database.
+
+[Go to whitebox view](../quanta/1-emaildata-collector-quanta.md)
+
 #### DataSupplier
 - This service communicates with various Agency APIs.
 - Received data is parsed and stored in storage.
@@ -84,6 +90,16 @@ Below, you will discover the system's contemplated services. Please note that cr
 
 [Go to whitebox view](../quanta/4-trip-dashboard-quanta.md)
 
+#### Notification
+- Central hub to perform all notification tasks via various services, like push notifications, email, WhatsApp, SMS, etc.
+
+[Go to whitebox view](../quanta/5-notification-hub-quanta.md)
+
+#### SocialSharing
+- Provides a common interface to post/share user trip data on various social media platforms, like X (formerly Twitter), Facebook, Instagram, etc.
+
+[Go to whitebox view](../quanta/6-social-sharing-quanta.md)
+
 #### PersonalAccountVault
 - Vault to manage user accounts.
 
@@ -93,20 +109,5 @@ Below, you will discover the system's contemplated services. Please note that cr
 #### DataAnalytics
 - Performs data analytics on data.
 - With the help of machine learning, devises travel trends, preferred locations, communication modes, etc.
-
-#### Notification
-- Central hub to perform all notification tasks via various services, like push notifications, email, WhatsApp, SMS, etc.
-
-[Go to whitebox view](../quanta/5-notification-hub-quanta.md)
-
-#### UpdateMerger
-- Identifies duplicate trips.
-- Merges data from duplicate trips and pushes integrated data to the database.
-
-#### SocialSharing
-- Provides a common interface to post/share user trip data on various social media platforms, like X (formerly Twitter), Facebook, Instagram, etc.
-
-[Go to whitebox view](../quanta/6-social-sharing-quanta.md)
-
 
 [<<Previous Page](./04_Solution_Strategy.md) ---- [Next Page >>](./06_Architecture_Decisions.md)
