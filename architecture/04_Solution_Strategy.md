@@ -20,6 +20,8 @@
     - **Mobile App:** Use PWA to install the application on mobile devices like iOS and Android using the following strategies:
       - Installing the PWA [from the browser](https://web.dev/customize-install/)
       - Installing the PWA [from the app store](https://developer.chrome.com/docs/android/trusted-web-activity/)
+     
+        [UI-mockup]
 
 2. **User Interface Frameworks:**
     - Consider Bootstrap or Material-UI for responsive web design.

@@ -23,6 +23,8 @@ of their existing reservations organized by trip either online (web) or through 
 - Provide end-of-year summary reports for users
 - Must integrate seamlessly with existing travel systems (i.e, SABRE, APOLLO)
 
+  [UC DIAGRAM] HERE
+
 ## Key Quality Characteristics
 The following table describes the key quality characteristics of Road Warrior. The order of the goals gives you a rough idea of their importance and was made based on the
 [Architecture Characteristics Worksheet](../images/ARCH-KATA-07_Architecture_Characteristics_Worksheet.png) by Marc Richards. The identified qualitiy characteristics are the main driver for our architecture style decision (refer to: [0010-architectural-style-decision](../ADRs/0010-architectural-style-decision.md)).

@@ -19,13 +19,17 @@ The module responsible for polling and processing travel-related emails.
 ### Sharing and Social Media Integration
 The module responsible for enabling users to share trip information on social media platforms.
 ### Travel Systems Integration
-The component that interfaces with external travel systems (e.g., SABRE, APOLLO) for real-time updates.
+The component that interfaces with external travel systems (e.g., SABRE, APOLLO, Hotel, car rental) for real-time updates.
 
+### Suppliers help support
+The help line for travelers to suppliers. They have read access to shared trips of traverleeres
 
 ## Technical Context
 We only name the name protocols and formats, which must be refined later.
 
 ![context](../diagrams/ARCH-KATA-00_System_technical_context.png)
+We support standard webprotocols (https, SMTP, VPN) and formats (json).
+For Authentication we will use ID Provider which support OAuth/OID protocol
 
 [<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
 
