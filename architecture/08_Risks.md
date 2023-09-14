@@ -2,7 +2,7 @@
 
 > This section contains a list of identified technical risks or technical debts, ordered by priority.
 
-# Technical Dept
+# Technical Depts
 
 | Dept |                                                                                   Description                                                                                   | 
 |------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -16,7 +16,8 @@
 ### Recommendation: 
 The technical debts should be manageable in normal sprints with a technical user story.
 
-## Risk: 
+## Risks
+
 | Risk |                                            Description                                             | 
 |------|:--------------------------------------------------------------------------------------------------:|
 | R1   |                           Underestimated global user traffic prediction.                           |
