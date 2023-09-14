@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T06:49:35.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Z1i1tNwGXtjtPhQIw7iO" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T06:50:23.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Ua-fbVb-cawNbv6dshHh" version="21.7.4" type="github">
   <diagram name="Page-1" id="DHzsw7qp5RdwvfVfzMkx">
     <mxGraphModel dx="1949" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="135" y="310" width="605" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="135.88" y="113.8" width="604.12" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="j5hr9lwx4SY-Ujh9xRNT-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="410.1" y="321" width="39.9" height="50" as="geometry" />
         </mxCell>
@@ -22,20 +16,8 @@
         <mxCell id="j5hr9lwx4SY-Ujh9xRNT-6" value="API Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="333" y="381" width="185" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-7" value="Presentation layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="142" y="79" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-8" value="API Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="135" y="266" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="j5hr9lwx4SY-Ujh9xRNT-9" value="Persistant layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="144" y="717" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="135.88" y="517" width="604.12" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="j5hr9lwx4SY-Ujh9xRNT-11" value="Service layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="135" y="487" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j5hr9lwx4SY-Ujh9xRNT-12" value="DataSupplier service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="347" y="534" width="82" height="35" as="geometry" />
