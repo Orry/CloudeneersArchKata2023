@@ -42,7 +42,7 @@
     - Consider Apache Kafka or RabbitMQ for asynchronous communication (refer-to: [0007-Message-Broker](../ADRs/0007-Message-Broker.md) ).
     - Implement OAuth 2.0 for secure API access.
 
-## Reservation Management:
+## Trip Data Management:
 
 5. **Database Management:**
     - Use PostgreSQL or MySQL for reservation data storage (refer-to: [0003-RDBMS_for_user_data](../ADRs/0003-RDBMS_for_user_data.md)).

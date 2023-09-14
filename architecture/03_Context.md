@@ -28,8 +28,8 @@ The help line for travelers to suppliers. They have read access to shared trips 
 We only name the name protocols and formats, which must be refined later.
 
 ![context](../diagrams/ARCH-KATA-00_System_technical_context.png)
-We support standard webprotocols (https, SMTP, VPN) and formats (json).
-For Authentication we will use ID Provider which support OAuth/OID protocol
+We support standard web protocols (https, SMTP, VPN) and formats (json).
+For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 [<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
 

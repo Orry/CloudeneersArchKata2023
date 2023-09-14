@@ -31,21 +31,21 @@ The following technical constraints must be respected:
 ## Organizational Constraints
 The following organizational constraints are defined:
 
-| Constraint                   |                                                                                   Motivation                                                                                   | 
-|------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Team                         |                           The [Cloudeneers](../team/introduction.md)  supported by materials and resources provided by Marc Richards and Neal Ford.                            |
-| Timeline                     |                         Start of the Kata was the 11th of september 2023. Solutions in the Github repos are due by 11:59pm ET Saturday, September 16.                          |
-| Tools and version management | Generating ideas in Miro, managing tasks through GitHub Projects, creating designs with draw.io, and documenting outcomes within GitHub, with updates pushed using IntelliJ IDE. |
-| Business Model               |             As a startup we use the fremium model for road worrior. We are financed by seed fund for the first round and by the affiliate fees from teh partners.              |
+| Constraint                   |                                                                                         Motivation                                                                                         | 
+|------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Team                         |                                 The [Cloudeneers](../team/introduction.md)  supported by materials and resources provided by Marc Richards and Neal Ford.                                  |
+| Timeline                     |                               Start of the Kata was the 11th of september 2023. Solutions in the Github repos are due by 11:59pm ET Saturday, September 16.                                |
+| Tools and version management | Generating ideas in Miro, managing tasks through GitHub Projects, creating designs with draw.io and Figma, and documenting outcomes within GitHub, with updates pushed using IntelliJ IDE. |
+| Business Model               |                   As a startup we use the freemium model for Road Warrior. We are financed by seed fund for the first round and by the affiliate fees from teh partners.                   |
 
 
 ## Conventions
 During the Kata challenge the below conventions are mandatory:
 
-| Conventions                |                                                                         Motivation                                                                          | 
-|----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Architecture documentation |                                           Terminology and structure according to the arc42 template, version 8.0.                                           |
-| Repository                 | Commits must be linked to a task on the GitHub Project Board to ensure traceability and a clean commit history (e.g. "ARCH-KATA-00: Requirements Analysis") |
+| Conventions                |                                                                                                 Motivation                                                                                                  | 
+|----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Architecture documentation | Terminology and structure according to the arc42 template, version 8.0. We want to highlight that those chapters, which are not relevant for the Kata challenge, were excluded from our document structure. |
+| Repository                 |                         Commits must be linked to a task on the GitHub Project Board to ensure traceability and a clean commit history (e.g. "ARCH-KATA-00: Requirements Analysis")                         |
 
 
 [<<Previous Page](./01_Introduction_And_Goals.md) ---- [Next Page >>](./03_Context.md)
