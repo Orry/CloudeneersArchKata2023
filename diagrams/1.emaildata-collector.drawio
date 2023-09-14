@@ -1,0 +1,72 @@
+<mxfile host="Electron" modified="2023-09-14T04:35:54.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="bW_ut9Yhqe4nLUerFNht" version="21.6.5" type="device">
+  <diagram name="Page-1" id="Kc-bbg_Cu5FP5rEg1Z3j">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="890" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-3" value="&lt;b&gt;EmailScanner - Service&lt;/b&gt;&lt;br&gt;&lt;br&gt;Publish travel related email to queue from user mailbox." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12.009999999999991;rotation=90;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="392" y="85" width="48" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-12" value="Travel relevent email" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="143" width="100" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-14" value="Publish" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="bDf-cAMHqaGHw8WwR_vP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="280" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-15" value="&lt;b&gt;EmailParser - Service&lt;/b&gt;&lt;br&gt;&lt;br&gt;Extract data from email and publish to queue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="606" y="77.5" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-16" value="Subscribe" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" y="-1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="150" as="sourcePoint" />
+            <mxPoint x="605" y="147.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="150" />
+              <mxPoint x="575" y="148" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-17" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12.009999999999991;rotation=90;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="657" y="270" width="48" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="bDf-cAMHqaGHw8WwR_vP-15" target="bDf-cAMHqaGHw8WwR_vP-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="670" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-20" value="Travel data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="631" y="326.25" width="100" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-21" value="&lt;b&gt;UpdateMerger - Service&lt;/b&gt;&lt;br&gt;&lt;br&gt;Clean and unify travel data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="612" y="420" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-22" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-23" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="bDf-cAMHqaGHw8WwR_vP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="489.5" as="sourcePoint" />
+            <mxPoint x="840" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDf-cAMHqaGHw8WwR_vP-24" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="681" y="360" as="sourcePoint" />
+            <mxPoint x="680.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
