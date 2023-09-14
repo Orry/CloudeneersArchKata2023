@@ -45,3 +45,13 @@ While the decision to use Docker and Kubernetes offers numerous advantages, it a
 5. **Security:** Implementing security measures and best practices for containerized applications is crucial to prevent vulnerabilities.
 
 In summary, the decision to containerize our application using Docker and orchestrate it with Kubernetes aligns with our goals of achieving scalability, portability, and efficient resource utilization. While there are challenges, the benefits of enhanced deployment management, resource efficiency, and scalability make Docker and Kubernetes suitable choices for our project's infrastructure.
+
+## References
+- [Developers Roadmap](https://roadmap.sh/)
+- [Containerization vs. Virtualization: Everything you need to know](https://middleware.io/blog/containerization-vs-virtualization/)
+- [Containerization or Virtualization - The Differences](https://www.youtube.com/watch?v=1WnDHitznGY)
+- [Kubernetes Website](https://kubernetes.io/)
+- [Kubernetes: An Overview](https://thenewstack.io/kubernetes-an-overview/)
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker simplified in 55 seconds](https://www.youtube.com/watch?v=vP_4DlOH1G4&feature=youtu.be)
+- [Complete Docker Course - From BEGINNER to PRO!](https://www.youtube.com/watch?v=RqTEHSBrYFw)

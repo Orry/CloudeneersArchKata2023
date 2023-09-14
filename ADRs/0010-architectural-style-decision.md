@@ -52,3 +52,14 @@ Serverless Computing complements the Microservices Architecture by enabling auto
 8. Sustainability: Serverless computing will save costs in terms of computation for tasks like Analytics and Reporting or E-Mail polling. Along with that we are able to improve sustainability of the architecture and reduce the footprint of the overall system by not running stand-by/idle instances and saving power.
 
 In conclusion, the adoption of a Microservices Architecture combined with Serverless Computing addresses the startup's requirements for scalability, real-time updates, high availability, and international functionality. However, careful consideration of complexity management and robust DevOps practices will be crucial to successful implementation.
+
+## References
+- [Developers Roadmap](https://roadmap.sh/)
+- [Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/)
+- [Architectural Patterns in a nutshell](https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013)
+- [Pattern: Microservice Architecture](https://microservices.io/patterns/microservices.html)
+- [What is Microservices?](https://smartbear.com/solutions/microservices/)
+- [Microservices 101](https://thenewstack.io/microservices-101/)
+- [Serverless](https://www.ibm.com/cloud/learn/serverless)
+- [AWS Services](https://aws.amazon.com/serverless/)
+- [Serverless Computing in 100 Seconds](https://www.youtube.com/watch?v=W_VV2Fx32_Y&ab_channel=Fireship)
