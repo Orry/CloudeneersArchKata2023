@@ -40,4 +40,7 @@ While the decision to use an RDBMS for user data offers several advantages, it a
 
 In summary, the decision to use an RDBMS for user data is driven by the need for data consistency, query flexibility, and reliability. However, it is essential to carefully manage complexities, scalability, and costs associated with this choice throughout the development and operation of the Online Trip Management Dashboard.
 
-
+## References
+- [Developers Roadmap](https://roadmap.sh/)
+- [Relational Databases](https://www.ibm.com/topics/relational-databases)
+- [Intro To Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)

@@ -42,3 +42,13 @@ While the decision to use GraphQL offers numerous advantages, it also comes with
 5. **Maturity:** While GraphQL is gaining popularity, REST remains a well-established and widely adopted API standard. The maturity of REST may be advantageous in certain scenarios.
 
 In summary, the decision to implement GraphQL as the API technology for the Online Trip Management Dashboard aligns with our goals of providing flexible data querying, real-time capabilities, and a versionless API. While there are challenges, the benefits of reduced data over-fetching, enhanced client-specific views, and schema evolution make GraphQL a suitable choice for our project's API design.
+
+## References
+- [Developers Roadmap](https://roadmap.sh/)
+- [Introduction to GraphQL](https://graphql.org/learn/)
+- [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
+- [GraphQL Tutorials](https://odyssey.apollographql.com/)
+- [GraphQL Course for Beginners](https://www.youtube.com/watch?v=ed8SzALpx1Q)
+- [What is REST?](https://www.codecademy.com/article/what-is-rest)
+- [REST Fundamental](https://dev.to/cassiocappellari/fundamentals-of-rest-api-2nag)
+- [Learn REST: A RESTful Tutorial](https://restapitutorial.com/)

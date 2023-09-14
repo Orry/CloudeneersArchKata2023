@@ -37,3 +37,10 @@ While the decision to use Apache Kafka as the message broker offers numerous adv
 5. **Integration Effort:** Integrating Kafka into the application requires additional development effort, including producer and consumer implementations.
 
 In summary, the decision to implement Apache Kafka as the message broker for the Online Trip Management Dashboard aligns with our goals of scalability, real-time event processing. While there are challenges related to complexity and resource management, the benefits of high throughput and a robust ecosystem make Kafka a suitable choice for our project's messaging infrastructure.
+
+## References
+- [Developers Roadmap](https://roadmap.sh/)
+- [RabbitMQ Tutorials](https://www.rabbitmq.com/getstarted.html)
+- [RabbitMQ Tutorial - Message Queues and Distributed Systems](https://www.youtube.com/watch?v=nFxjaVmFj5E)
+- [Apache Kafka quickstart](https://kafka.apache.org/quickstart)
+- [Apache Kafka Fundamentals](https://www.youtube.com/watch?v=B5j3uNBH8X4)
