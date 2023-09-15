@@ -6,7 +6,7 @@ Date: 2023-09-13
 Accepted
 ## Context
 
-For the solution strategy of the Online Trip Management Dashboard, we are faced with a critical decision regarding the storage and management of user data, particularly user accounts, reservations, and related information. The choice of an appropriate data storage solution is essential for the reliability, scalability, and security of the application.
+For the solution strategy of the Online Trip Management Dashboard, we are faced with a critical decision regarding the storage and management of user data, particularly user accounts and related information. The choice of an appropriate data storage solution is essential for the reliability, scalability, and security of the application.
 
 ## Decision
 
