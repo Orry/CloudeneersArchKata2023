@@ -31,5 +31,21 @@ We only name the name protocols and formats, which must be refined later.
 We support standard web protocols (https, SMTP, VPN) and formats (json).
 For Authentication we will use ID Provider which support OAuth/OID protocol.
 
+## Use Cases
+### Actors Relations
+![context](../diagrams/Road_Warrior_UseCases-Actors_relations.png)
+
+### Traveller's
+![context](../diagrams/Road_Warrior_UseCases-UC_Traveller.png)
+
+### Co-Traveller's
+![context](../diagrams/Road_Warrior_UseCases-UC_Co-traveller.png)
+
+### Observer
+![context](../diagrams/Road_Warrior_UseCases-UC_Observer.png)
+
+### Secretary
+![context](../diagrams/Road_Warrior_UseCases-UC_Secretary.png)
+
 [<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
 

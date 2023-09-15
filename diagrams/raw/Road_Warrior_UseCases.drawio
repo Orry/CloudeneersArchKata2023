@@ -1,0 +1,540 @@
+<mxfile host="Electron" modified="2023-09-15T15:37:47.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="F90mRncyFL3xj2R8W0EA" version="21.6.5" type="device" pages="5">
+  <diagram id="jm6ADzU8M6EHTFzm9SmO" name="Actors relations">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eOsZPzPvMWfK_PA1fjPh-3" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="570" y="460" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="eOsZPzPvMWfK_PA1fjPh-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="eOsZPzPvMWfK_PA1fjPh-3" vertex="1">
+          <mxGeometry y="25" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eOsZPzPvMWfK_PA1fjPh-2" value="RoadWarrior" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="eOsZPzPvMWfK_PA1fjPh-3" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-4" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="eOsZPzPvMWfK_PA1fjPh-3" vertex="1">
+          <mxGeometry x="90" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-3" value="Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="eOsZPzPvMWfK_PA1fjPh-3" vertex="1">
+          <mxGeometry x="30" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-1" target="LZ_ZqCwyCloilCHp4ZHS-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaXjXuUuS9k0vmVR7pgj-6" value="Share data for &lt;br&gt;online tracking" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LZ_ZqCwyCloilCHp4ZHS-13" vertex="1" connectable="0">
+          <mxGeometry x="0.2829" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaXjXuUuS9k0vmVR7pgj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-1" target="PaXjXuUuS9k0vmVR7pgj-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaXjXuUuS9k0vmVR7pgj-4" value="Emergency &lt;br&gt;direct&amp;nbsp;support" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PaXjXuUuS9k0vmVR7pgj-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1854" y="-2" relative="1" as="geometry">
+            <mxPoint x="-28" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dQol3ZFVYylBA0v5PYa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-1" target="eOsZPzPvMWfK_PA1fjPh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="410" />
+              <mxPoint x="430" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dQol3ZFVYylBA0v5PYa-2" value="email feedback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2dQol3ZFVYylBA0v5PYa-1" vertex="1" connectable="0">
+          <mxGeometry x="0.3521" relative="1" as="geometry">
+            <mxPoint x="27" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-1" value="Traveller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-1" target="LZ_ZqCwyCloilCHp4ZHS-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-14" value="Send booking details &lt;br&gt;to book similar&lt;br&gt;once" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LZ_ZqCwyCloilCHp4ZHS-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.4197" y="-1" relative="1" as="geometry">
+            <mxPoint x="-26" y="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-2" target="LZ_ZqCwyCloilCHp4ZHS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PaXjXuUuS9k0vmVR7pgj-2" value="books&amp;nbsp;&lt;br&gt;everything" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LZ_ZqCwyCloilCHp4ZHS-15" vertex="1" connectable="0">
+          <mxGeometry x="0.1691" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dQol3ZFVYylBA0v5PYa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-2" target="eOsZPzPvMWfK_PA1fjPh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="250" />
+              <mxPoint x="430" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-2" value="Secretary or&amp;nbsp;&lt;br&gt;Travel Assistant" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-10" value="Co-traveller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2dQol3ZFVYylBA0v5PYa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LZ_ZqCwyCloilCHp4ZHS-12" target="eOsZPzPvMWfK_PA1fjPh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="570" />
+              <mxPoint x="430" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ_ZqCwyCloilCHp4ZHS-12" value="Travel &lt;br&gt;Observer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PaXjXuUuS9k0vmVR7pgj-1" value="Supplier contact" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC&#39;s Traveller" id="b5q7MIVO7YHX7S1vfHOY">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="7TGFl2eFIZOAFVD1F8-k-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="331" y="721" />
+              <mxPoint x="331" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-18" value="Current trip &lt;br&gt;details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7TGFl2eFIZOAFVD1F8-k-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.4633" y="2" relative="1" as="geometry">
+            <mxPoint y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-1" target="7TGFl2eFIZOAFVD1F8-k-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="847" />
+            </Array>
+            <mxPoint x="260" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5idUz-xBd38PiJOG7jJn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-1" target="5idUz-xBd38PiJOG7jJn-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-1" value="Traveller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="260" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="550" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="472" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-5" target="7TGFl2eFIZOAFVD1F8-k-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-5" target="6uojBXoCv4loyeTZCkN3-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Get&lt;br&gt;Trip overview including latest changes" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="7TGFl2eFIZOAFVD1F8-k-5">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="370" y="510" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-6" value="Get &lt;br&gt;All trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="835" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-7" value="Get&lt;br&gt;Passed trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-8" target="7TGFl2eFIZOAFVD1F8-k-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-8" target="7TGFl2eFIZOAFVD1F8-k-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-8" target="7TGFl2eFIZOAFVD1F8-k-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-20" value="Get &lt;br&gt;exact trip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7TGFl2eFIZOAFVD1F8-k-14" vertex="1" connectable="0">
+          <mxGeometry x="0.0323" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-8" target="7TGFl2eFIZOAFVD1F8-k-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5idUz-xBd38PiJOG7jJn-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-1" target="5idUz-xBd38PiJOG7jJn-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="850" />
+              <mxPoint x="200" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-8" value="Get&lt;br&gt;Upcoming trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="835" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-22" target="6uojBXoCv4loyeTZCkN3-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-22" target="6uojBXoCv4loyeTZCkN3-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-22" target="6uojBXoCv4loyeTZCkN3-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-22" value="Get current/next shoulder details" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7TGFl2eFIZOAFVD1F8-k-25" target="7TGFl2eFIZOAFVD1F8-k-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="150" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-25" value="Get Trip change notification" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-29" value="Create&lt;br&gt;new shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7TGFl2eFIZOAFVD1F8-k-30" value="Create&lt;br&gt;Blank trip" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-2" value="Delete shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-4" value="Get Supplier contacts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="1" vertex="1">
+          <mxGeometry x="510" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-6" value="Edit shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uojBXoCv4loyeTZCkN3-12" target="6uojBXoCv4loyeTZCkN3-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uojBXoCv4loyeTZCkN3-12" target="6uojBXoCv4loyeTZCkN3-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6uojBXoCv4loyeTZCkN3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uojBXoCv4loyeTZCkN3-12" target="6uojBXoCv4loyeTZCkN3-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Observe sharings" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="6uojBXoCv4loyeTZCkN3-12">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="330" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2v_RvkADffu3mkJc4tiQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uojBXoCv4loyeTZCkN3-14" target="2v_RvkADffu3mkJc4tiQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="6uojBXoCv4loyeTZCkN3-14">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="340" y="220" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Revoke sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="6uojBXoCv4loyeTZCkN3-17">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="210" y="220" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="2v_RvkADffu3mkJc4tiQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6uojBXoCv4loyeTZCkN3-19" target="2v_RvkADffu3mkJc4tiQ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create text export" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="6uojBXoCv4loyeTZCkN3-19">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="180" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send text &lt;br&gt;booking export" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="2v_RvkADffu3mkJc4tiQ-1">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
+            <mxGeometry x="40" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="2v_RvkADffu3mkJc4tiQ-3">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
+            <mxGeometry x="340" y="120" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5idUz-xBd38PiJOG7jJn-1" value="Yearly Report" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="140" y="915" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5idUz-xBd38PiJOG7jJn-5" value="Email feedback channel" style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC&#39;s Observer" id="yfGF__MMBt5IEIyQopzk">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="THurTUu9YFswJP0eUjxy-0" />
+        <mxCell id="THurTUu9YFswJP0eUjxy-1" parent="THurTUu9YFswJP0eUjxy-0" />
+        <mxCell id="THurTUu9YFswJP0eUjxy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="THurTUu9YFswJP0eUjxy-1" target="THurTUu9YFswJP0eUjxy-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="581" />
+              <mxPoint x="311" y="581" />
+              <mxPoint x="311" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THurTUu9YFswJP0eUjxy-3" value="Current trip &lt;br&gt;details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="THurTUu9YFswJP0eUjxy-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.4633" y="2" relative="1" as="geometry">
+            <mxPoint y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THurTUu9YFswJP0eUjxy-5" value="Observer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="THurTUu9YFswJP0eUjxy-1" vertex="1">
+          <mxGeometry x="240" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="THurTUu9YFswJP0eUjxy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="THurTUu9YFswJP0eUjxy-1" source="THurTUu9YFswJP0eUjxy-9" target="THurTUu9YFswJP0eUjxy-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="490" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Get&lt;br&gt;Trip overview including latest changes" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="THurTUu9YFswJP0eUjxy-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="THurTUu9YFswJP0eUjxy-1" vertex="1">
+            <mxGeometry x="340" y="540" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="THurTUu9YFswJP0eUjxy-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="THurTUu9YFswJP0eUjxy-1" source="THurTUu9YFswJP0eUjxy-21" target="THurTUu9YFswJP0eUjxy-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THurTUu9YFswJP0eUjxy-21" value="Get current/next shoulder details" style="ellipse;whiteSpace=wrap;html=1;" parent="THurTUu9YFswJP0eUjxy-1" vertex="1">
+          <mxGeometry x="340" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="THurTUu9YFswJP0eUjxy-27" value="Get Supplier contacts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="THurTUu9YFswJP0eUjxy-1" vertex="1">
+          <mxGeometry x="340" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LnBsILqlxZah3kl1M4gz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="THurTUu9YFswJP0eUjxy-1" source="LnBsILqlxZah3kl1M4gz-0" target="THurTUu9YFswJP0eUjxy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Receive sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="LnBsILqlxZah3kl1M4gz-0">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="THurTUu9YFswJP0eUjxy-1" vertex="1">
+            <mxGeometry x="195" y="240" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC&#39;s Co-traveller" id="SV7vp7XpyjSF62Rf1xRM">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="BxIE0pqyWbgtdJYkLthM-0" />
+        <mxCell id="BxIE0pqyWbgtdJYkLthM-1" parent="BxIE0pqyWbgtdJYkLthM-0" />
+        <mxCell id="BxIE0pqyWbgtdJYkLthM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="BxIE0pqyWbgtdJYkLthM-1" target="BxIE0pqyWbgtdJYkLthM-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="270" y="581" />
+              <mxPoint x="311" y="581" />
+              <mxPoint x="311" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxIE0pqyWbgtdJYkLthM-4" value="Co-traveller" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="BxIE0pqyWbgtdJYkLthM-1" vertex="1">
+          <mxGeometry x="240" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Book same flights, hotels..." link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="BxIE0pqyWbgtdJYkLthM-6">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="BxIE0pqyWbgtdJYkLthM-1" vertex="1">
+            <mxGeometry x="340" y="540" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="BxIE0pqyWbgtdJYkLthM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="BxIE0pqyWbgtdJYkLthM-1" source="BxIE0pqyWbgtdJYkLthM-11" target="BxIE0pqyWbgtdJYkLthM-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Receive text export" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="BxIE0pqyWbgtdJYkLthM-11">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCCCFF;" parent="BxIE0pqyWbgtdJYkLthM-1" vertex="1">
+            <mxGeometry x="195" y="350" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC&#39;s Secretary" id="WUF6bO0B6vF4isS0Nny6">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-0" />
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-1" parent="AeQWYDpq88O-yqVFLmpF-0" />
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" target="AeQWYDpq88O-yqVFLmpF-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="331" y="721" />
+              <mxPoint x="331" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-3" value="Current trip &lt;br&gt;details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AeQWYDpq88O-yqVFLmpF-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.4633" y="2" relative="1" as="geometry">
+            <mxPoint y="-75" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-5" target="AeQWYDpq88O-yqVFLmpF-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="275" y="847" />
+            </Array>
+            <mxPoint x="260" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-5" value="Secretary or&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Travel Assistant" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="260" y="680" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="550" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="472" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-9" target="AeQWYDpq88O-yqVFLmpF-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-9" target="AeQWYDpq88O-yqVFLmpF-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Get&lt;br&gt;Trip overview including latest changes" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-9">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="370" y="510" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-10" value="Get &lt;br&gt;All trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="590" y="835" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-11" value="Get&lt;br&gt;Passed trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="590" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-17" target="AeQWYDpq88O-yqVFLmpF-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-17" target="AeQWYDpq88O-yqVFLmpF-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-17" target="AeQWYDpq88O-yqVFLmpF-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-15" value="Get &lt;br&gt;exact trip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AeQWYDpq88O-yqVFLmpF-14" vertex="1" connectable="0">
+          <mxGeometry x="0.0323" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-17" target="AeQWYDpq88O-yqVFLmpF-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-17" value="Get&lt;br&gt;Upcoming trips overview" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="370" y="835" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-21" target="AeQWYDpq88O-yqVFLmpF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-21" target="AeQWYDpq88O-yqVFLmpF-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-21" target="AeQWYDpq88O-yqVFLmpF-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-21" value="Get current/next shoulder details" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="510" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-24" value="Create&lt;br&gt;new shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="520" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-25" value="Create&lt;br&gt;Blank trip" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="370" y="995" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-26" value="Delete shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="670" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-27" value="Get Supplier contacts" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F19C99;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="510" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-28" value="Edit shoulder" style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+          <mxGeometry x="670" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-32" target="AeQWYDpq88O-yqVFLmpF-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-32" target="AeQWYDpq88O-yqVFLmpF-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-32" target="AeQWYDpq88O-yqVFLmpF-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Observe sharing" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-32">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="330" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-34" target="AeQWYDpq88O-yqVFLmpF-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-34">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="340" y="220" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Revoke sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-35">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="210" y="220" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AeQWYDpq88O-yqVFLmpF-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" source="AeQWYDpq88O-yqVFLmpF-37" target="AeQWYDpq88O-yqVFLmpF-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Create text export" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-37">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="180" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send text &lt;br&gt;booking export" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-38">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="40" y="390" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Send sharing link" link="https://github.com/Orry/CloudeneersArchKata2023/blob/%236-UseCases/diagrams/UseCase.drawio" linkTarget="_blank" id="AeQWYDpq88O-yqVFLmpF-39">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" parent="AeQWYDpq88O-yqVFLmpF-1" vertex="1">
+            <mxGeometry x="340" y="120" width="120" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
