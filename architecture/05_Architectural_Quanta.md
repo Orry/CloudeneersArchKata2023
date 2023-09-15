@@ -22,7 +22,7 @@ Based on the requirements and the design decisions we took for the  next-generat
 we identified the following architectural quanta. The below illustration shows an overview of
 the core components:
 
-![images](../diagrams/ARCH-KATA-06_Identify Architectural Quanta_Component_Diagram.png)
+![images](../diagrams/ARCH-KATA-06_Identify_Architectural_Quanta_Component_Diagram.png)
 
 ## Components and Responsibilities
 ### Presentation layer
