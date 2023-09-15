@@ -4,15 +4,15 @@ The key domain-specific and technical terminology commonly employed by the [stak
 
 | Term     |                       Definitions                        | 
 |----------|:--------------------------------------------------------:|
-| ADR      |              Architecture Decisions Record               |
-| NPO / NP |                 non-profit organizations                 |
-| NFR      |                Non-functional requirement                |
-| MVP      |                  Minimum Viable Product                  |
-| PII      |            Personal Identifiable Information             |
-| PWA      |                   Progressive Web App                    |
-| UI       |                      User Interface                      |
-| UX       |                     User Experience                      |
-| IA       |                 Information Architecture                 |
+| ADR      | Architecture Decisions Record                            |
+| NPO / NP | non-profit organizations                                 |
+| NFR      | Non-functional requirement                               |
+| MVP      | Minimum Viable Product                                   |
+| PII      | Personal Identifiable Information                        |
+| PWA      | Progressive Web App                                      |
+| UI       | User Interface                                           |
+| UX       | User Experience                                          |
+| IA       | Information Architecture                                 |
 | Kata     | detailed choreographed pattern of martial arts movements |
 | GDPR     | General Data Protection Regulation                       |
 | DB       | Data Base                                                |
