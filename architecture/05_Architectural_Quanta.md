@@ -19,10 +19,10 @@
 > "An independently deployable artifact with high functional cohesion and synchronous connascence" (Fundamentals of Software Architecture by Mark Richards an Neal Ford)
 
 Based on the requirements and the design decisions we took for the  next-generation online trip management dashboard, 
-we identified the following architectural quanta. The below illustration shows a compact overview of
+we identified the following architectural quanta. The below illustration shows an overview of
 the core components:
 
-![images](../diagrams/RoadWarrior-Logical-Architecture.jpg)
+![images](../diagrams/ARCH-KATA-06_Identify Architectural Quanta_Component_Diagram.png)
 
 ## Components and Responsibilities
 ### Presentation layer
