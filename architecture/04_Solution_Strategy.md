@@ -37,14 +37,14 @@
     - Implement this component using serverless computing to minimizing operational overhead, and ensuring high availability.  
 
 4. **Third-Party Integration:**
-    - Implement REST or GraphQL (refer to: [0006-API-Integration](../ADRs/0006-API-Integration.md) ) APIs for interfacing with travel systems (SABRE, APOLLO).
+    - Implement REST or GraphQL (refer to: [0006-API-Integration](../ADRs/0006-API-Integration.md)) APIs for interfacing with travel systems (SABRE, APOLLO).
     - Consider Apache Kafka or RabbitMQ for asynchronous communication (refer-to: [0007-Message-Broker](../ADRs/0007-Message-Broker.md) ).
     - Implement OAuth 2.0 for secure API access.
 
 ## Trip Data Management:
 
 5. **Database Management:**
-    - Use PostgreSQL or MySQL for reservation data storage (refer-to: [0003-RDBMS_for_user_data](../ADRs/0003-RDBMS_for_user_data.md)).
+    - Use PostgreSQL or MySQL for user data storage (refer-to: [0003-RDBMS_for_user_data](../ADRs/0003-RDBMS_for_user_data.md)).
     - Use database migration tools like [Flyway](https://flywaydb.org/) or [Liquibase](https://www.liquibase.org/).
 
 6. **Backend Development:**
@@ -53,8 +53,7 @@
 ## Social Media Integration:
 
 7. **Social Media APIs:**
-    - Implement OAuth 2.0 for user authentication with social media platforms.
-    - Use APIs like [Facebook Graph API](https://developers.facebook.com/docs/graph-api/) or [Twitter API](https://developer.twitter.com/en/docs/twitter-api) for sharing.
+    - Use APIs like [JS-Share](https://github.com/delfimov/JS-Share)
 
 ## Reporting Module:
 
@@ -81,7 +80,7 @@
     - Implement Prometheus and Grafana for monitoring.
 
 12. **Real-Time Updates:**
-    - Use WebSockets or SSE for real-time updates.
+    - Use GraphQL (refer-to: [0006-API-Integration](../ADRs/0006-API-Integration.md) ) for real-time updates.
 
 13. **Performance Optimization:**
     - Employ CDNs (Content Delivery Network) for content delivery and caching.
@@ -111,12 +110,12 @@ By following this solution strategy, the startup can develop a next-generation O
 - [Containerization](../ADRs/0005-Containerization.md)
 - [D3.js](https://d3js.org/)
 - [email.parser](https://docs.python.org/3/library/email.parser.html)
-- [Facebook Graph API](https://developers.facebook.com/docs/graph-api/)
 - [Flask-Babel](https://python-babel.github.io/flask-babel/)
 - [Flyway](https://flywaydb.org/)
 - [Google Data Studio](https://analytics.google.com/analytics/academy/)
 - [imaplib](https://docs.python.org/3/library/imaplib.html)
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library)
+- [JS-Share](https://github.com/delfimov/JS-Share)
 - [Liquibase](https://www.liquibase.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Message Broker](../ADRs/0007-Message-Broker.md)
@@ -126,7 +125,6 @@ By following this solution strategy, the startup can develop a next-generation O
 - [react.i18next](https://react.i18next.com/)
 - [Seaborn](https://seaborn.pydata.org/)
 - [spaCy](https://spacy.io/)
-- [Twitter API](https://developer.twitter.com/en/docs/twitter-api)
 - [Vuex](https://vuex.vuejs.org/)
 - [Visit Dedicated React Roadmap](https://roadmap.sh/react)
 - [Visit Dedicated Vue Roadmap](https://roadmap.sh/vue)

@@ -3,7 +3,6 @@ Date: 2023-09-13
 ## Status
 
 Accepted
-# Architecture Decision Record (ADR)
 
 ## Context
 
