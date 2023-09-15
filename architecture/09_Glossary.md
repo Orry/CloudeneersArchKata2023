@@ -36,6 +36,8 @@ The key domain-specific and technical terminology commonly employed by the [stak
 | PAVS     | PersonalAccountVault - Service                           |
 | DAS      | DataAnalytics - Service                                  |
 | URS      | UserReporting - Service                                  |
+| DTAG     | Deutsche Telekom Aktien Gesellschaft                     |
+
 
 
 [<<Previous Page](./08_Risks.md)
