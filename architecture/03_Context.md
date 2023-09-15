@@ -43,7 +43,7 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Secretary or Travel Assistant** - Some person who assists with booking and tracking changes. For most of users it will be probably wife or husband.
 
-**RoadWarrior employees** receive feedback via fmb. Normally no direct communication required.
+**RoadWarrior employees** receive feedback via FMB. Normally no direct communication required.
 
 **Supplier contact** contact from Airlines, Taxi, Bus or other trip supplier for emergency situations.
 
@@ -53,11 +53,13 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Get Upcoming trips** - basic view to the trips that are not ended
 
+**Create Blank trip** - create new trip.
+
 **Get all of the trips** - to have full list of trips
 
 **Get passeed trips** - get list of trips that are already ended. It might be required for travel reporting. 
 
-**Get Trip overicew** - basic functionality to view certain trip details.
+**Get Trip overiew** - basic functionality to view certain trip details.
 
 **Create new shoulder** - manuall adding of the new information part. Like new taxi or nre train.
 
@@ -71,7 +73,9 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Observe sharings** - get list of shared links. 
 
-**Create sharing link** - create new link to share with observer.
+**Create sharing link** - create new link to share with Observer with particular email.
+
+**Send sharing link** - send the link to the Observer.
 
 **Revoke link** - revoke link if it was shared to a wrong round.
 
@@ -93,6 +97,38 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 ### Secretary
 ![context](../diagrams/Road_Warrior_UseCases-UC_Secretary.png)
+
+**Get Upcoming trips** - basic view to the trips that are not ended
+
+**Create Blank trip** - create new trip.
+
+**Get all of the trips** - to have full list of trips
+
+**Get passeed trips** - get list of trips that are already ended. It might be required for travel reporting. 
+
+**Get Trip overiew** - basic functionality to view certain trip details.
+
+**Create new shoulder** - manuall adding of the new information part. Like new taxi or nre train.
+
+**Get shoulder details** - get all of the details for particular part of the trip. That should include the booking number all necessary identification data like QR or bar codes.
+
+**Edit shoulder** - change booking details in the system according to other changes. Most usable case is that we have new updates received via alternative channel (like by phone) or email was not parsed.
+
+**Delete shoulder** - remove current supplier information. 
+
+**Get supplier contacts** - getting first contact information for supplier for emergency case. For example taxi didn't appear - where to call.
+
+**Observe sharings** - get list of shared links. 
+
+**Create sharing link** - create new link to share with Observer with particular email.
+
+**Send sharing link** - send the link to the Observer.
+
+**Revoke link** - revoke link if it was shared to a wrong round.
+
+**Create text export** - create export for Co-traveller that can be shared in a text format for similar bookings.
+
+**Send text booking export** - send created text export to Co-traveller.
 
 [<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
 
