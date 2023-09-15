@@ -40,6 +40,6 @@ We are delighted to participate in Architectural Kata 2023. Prior to unveiling o
 9. [Glossary](./architecture/09_Glossary.md)
 
 ## Additional Resources
-1. [ADRs](./ADRs/)
-2. [Diagrams](./diagrams/)
-3. [Images](./images/)
+1. [ADRs](./ADRs)
+2. [Diagrams](./diagrams)
+3. [Images](./images)
