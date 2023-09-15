@@ -1,6 +1,7 @@
 # Trip Dashboard Quanta
 
 ## Whitelist View
+
 ![Trip Planner Quanta](../diagrams/4.trip-dashboard.jpg)
 
 | Service              |                                                       Description                                                        | 
