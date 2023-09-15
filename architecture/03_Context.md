@@ -94,7 +94,7 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Receive text export** - get a list of Flights, Hotel names and all relevant for booking data to book same flights.
 
-**Book same ...** - book same flight to seat together. 
+**Book same flights, hotels ...** - book same flight to seat together. 
 
 ### Observer
 ![context](../diagrams/Road_Warrior_UseCases-UC_Observer.png)
