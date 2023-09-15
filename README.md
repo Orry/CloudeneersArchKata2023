@@ -30,10 +30,3 @@ We are delighted to participate in Architectural Kata 2023. Prior to unveiling o
     2. [Quality Scenarios](./architecture/07_Architectural_Characteristics.md#quality-scenarios)
 8. [Risks](./architecture/08_Risks.md)
 9. [Glossary](./architecture/09_Glossary.md)
-
-## Additional Resources
-1. [ADRs](./ADRs)
-2. [Diagrams](./diagrams)
-3. [Images](./images)
-4. [Quanta](./quanta)
-5. [Team](./team)
