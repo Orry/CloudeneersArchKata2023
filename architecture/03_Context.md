@@ -67,8 +67,23 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Delete shoulder** - remove current supplier information. 
 
-**Ger supplier contacts** - getting first contact information for supplier for emergency case. For example taxi didn't appear - where to call.
+**Get supplier contacts** - getting first contact information for supplier for emergency case. For example taxi didn't appear - where to call.
 
+**Observe sharings** - get list of shared links. 
+
+**Create sharing link** - create new link to share with observer.
+
+**Revoke link** - revoke link if it was shared to a wrong round.
+
+**Create text export** - create export for Co-traveller that can be shared in a text format for similar bookings.
+
+**Send text booking export** - send created text export to Co-traveller.
+
+**Get trip change notification** - receive notification about urgent update.
+
+**Yearly report** - receive yearly report about travel information, routes, frequency and so on...
+
+**Email feedback channel** - send feedback to developers.
 
 ### Co-Traveller's
 ![context](../diagrams/Road_Warrior_UseCases-UC_Co-traveller.png)
