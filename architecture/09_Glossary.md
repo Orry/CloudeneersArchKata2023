@@ -38,7 +38,7 @@ The key domain-specific and technical terminology commonly employed by the [stak
 | URS      | UserReporting - Service                                  |
 | DTAG     | Deutsche Telekom Aktien Gesellschaft                     |
 | UP       | User Profile                                             |
-
+| MU       | Mockup                                                   |
 
 
 
