@@ -57,11 +57,11 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Get all of the trips** - to have full list of trips
 
-**Get passeed trips** - get list of trips that are already ended. It might be required for travel reporting. 
+**Get passed trips** - get list of trips that are already ended. It might be required for travel reporting. 
 
 **Get Trip overiew** - basic functionality to view certain trip details.
 
-**Create new shoulder** - manuall adding of the new information part. Like new taxi or nre train.
+**Create new shoulder** - manuall adding of the new information part. Like new taxi or new train.
 
 **Get shoulder details** - get all of the details for particular part of the trip. That should include the booking number all necessary identification data like QR or bar codes.
 
@@ -92,8 +92,20 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 ### Co-Traveller's
 ![context](../diagrams/Road_Warrior_UseCases-UC_Co-traveller.png)
 
+**Receive text export** - get a list of Flights, Hotel names and all relevant for booking data to book same flights.
+
+**Book same ...** - book same flight to seat together. 
+
 ### Observer
 ![context](../diagrams/Road_Warrior_UseCases-UC_Observer.png)
+
+**Receive sharing link** - get the link to the tracking some friend or client.
+
+**Get trip overview including latest changes** - get overview where the person is.
+
+**Get shoulder details** - get exact details about trip part (like airplane) to get more details about the status. 
+
+**Get supplier contacts** - get emergency contact if status is not representative but data is required. 
 
 ### Secretary
 ![context](../diagrams/Road_Warrior_UseCases-UC_Secretary.png)
@@ -104,11 +116,11 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 
 **Get all of the trips** - to have full list of trips
 
-**Get passeed trips** - get list of trips that are already ended. It might be required for travel reporting. 
+**Get passed trips** - get list of trips that are already ended. It might be required for travel reporting. 
 
 **Get Trip overiew** - basic functionality to view certain trip details.
 
-**Create new shoulder** - manuall adding of the new information part. Like new taxi or nre train.
+**Create new shoulder** - manuall adding of the new information part. Like new taxi or new train.
 
 **Get shoulder details** - get all of the details for particular part of the trip. That should include the booking number all necessary identification data like QR or bar codes.
 
