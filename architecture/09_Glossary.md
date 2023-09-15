@@ -38,7 +38,17 @@ The key domain-specific and technical terminology commonly employed by the [stak
 | URS      | UserReporting - Service                                  |
 | DTAG     | Deutsche Telekom Aktien Gesellschaft                     |
 | UP       | User Profile                                             |
-| MU       | Mockup                                                   |
+| MUockup  | model of a design or device                              |
+| JS       | Java Script                                              |
+| AMD      | Advanced Micro Devices, Inc. (AMD)                       |
+| RTU      | Realtime Updates                                         |
+| MIME     | Multipurpose Internet Mail Extensions                    |
+| CDN      | Content Delivery Network                                 |
+| HTML     | Hypertext Markup Language                                |
+| IP       | Internet Protocol                                        |
+| TCP      | Transmission Control Protocol                            |
+| HTTPS    | Hypertext Transfer Protocol Secure                       |
+
 
 
 
