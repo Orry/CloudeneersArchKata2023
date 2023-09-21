@@ -13,6 +13,9 @@ of their existing reservations organized by trip either online (web) or through 
 ## Vision
 > "All your travel information in on place world wide"
 
+Picture this. A business traveler, jet-lagged, weary, and burdened by a jumbled mix of flight schedules, hotel reservations, and car rental bookings. They're struggling to keep track of changes, cancellations, and updates. In the midst of this chaos, the Road Warrior app emerges as a beacon of relief.
+Road Warrior, a startup with a vision to revolutionize trip management, presents an online dashboard that neatly organizes your travel itinerary either on the web or on your mobile device. Imagine having all your reservations at your fingertips, updated in real time, with the ability to manually add, update, or delete items. This is the ease that Road Warrior promises.
+
 ## Essential Features
 - Poll email looking for travel-related emails
 - Filter and whitelist certain emails

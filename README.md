@@ -3,6 +3,20 @@
 
 ![Road Warrior](./images/Road_Warrior_Logo.png)
 
+## Technical Presentation
+[!["Road Warrior - The NextGen Travel Dashboard"](./images/Thumbnail.png)](https://drive.google.com/file/d/14lLuWVig_f2x0eT0rpvYgUGD78Kqf_Q3/view?usp=sharing "Road Warrior - The NextGen Travel Dashboard")
+
+Go to the [Video Script](./video/video_script.md)
+
+#### References
+- [Images from iStock](https://www.istockphoto.com/)
+- [Videos from Storyblocks](https://www.storyblocks.com/)
+- [Video edited via Canva](https://www.canva.com/)
+- Music by [Aleksey Chistilin](https://pixabay.com/users/lexin_music-28841948/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=116199) from [Pixabay](https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=116199)
+
+We respect the license agreements ([Licenses iStock](https://www.istockphoto.com/en/help/licenses), [Licenses Storyblocks](https://www.storyblocks.com/business-solutions/license-comparison)) 
+of the above mentioned sites by providing the references to the sources used in the presented video.
+
 ## The Team
 We are delighted to participate in Architectural Kata 2023. Prior to unveiling our solution, we would like to provide an introduction to our team:
 [Cloudeneers](./team/introduction.md)
