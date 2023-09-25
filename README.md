@@ -4,7 +4,7 @@
 ![Road Warrior](./images/Road_Warrior_Logo.png)
 
 ## Technical Presentation
-[!["Road Warrior - The NextGen Travel Dashboard"](./images/Thumbnail.png)](https://drive.google.com/file/d/1-4PMJfdLO51FMDX6-jyJfIHvRMMI0pmv/view?usp=drivesdk "Road Warrior - The NextGen Travel Dashboard")
+[!["Road Warrior - The NextGen Travel Dashboard"](./images/Thumbnail.png)](https://drive.google.com/file/d/1_QkSIaGzpYxRHuP-z25gtTKKaBed8a80/view?usp=sharing "Road Warrior - The NextGen Travel Dashboard")
 
 Go to the [Video Script](./video/video_script.md)
 
