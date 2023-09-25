@@ -4,9 +4,9 @@
 
 # Technical Depts
 
-| Dept |                                                                                   Description                                                                                   | 
-|------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| D1   | No fitness test functions to control our quality goalsThe team has to implement fitness test functions to control our quality goals in their development lifecycle (DevSecOps). |
+| Dept |                                                                                    Description                                                                                    | 
+|------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| D1   | No fitness test functions to control our quality goals. The team has to implement fitness test functions to control our quality goals in their development lifecycle (DevSecOps). |
 
 ### Consequences
 -  reduction the technical debt to guarantee the reach of the  quality goals

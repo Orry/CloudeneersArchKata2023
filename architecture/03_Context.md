@@ -2,6 +2,7 @@
 3. [Context](#context)
     1. [Business Context](#business-context)
     2. [Technical Context](#technical-context)
+    3. [Use Cases](#use-cases)
 
 > Defines the boundaries between the system and its communication counterparts (adjacent systems and users). It outlines the external interfaces, presenting both a business/domain viewpoint and a technical standpoint.
 
@@ -10,18 +11,14 @@ We concentrate here on the main actors and external systems. We differentiate co
 
 ![context](../diagrams/ARCH-KATA-00_System_business_context.png)
 
-### Travel Assistant
-Actor which acts as the preferred travel agency agent for quick problem resolution.
-### Traveler
-The actual Traveler interacting with the Road Warrior system.
-### Email Integration
-The module responsible for polling and processing travel-related emails.
-### Sharing and Social Media Integration
-The module responsible for enabling users to share trip information on social media platforms.
-### Travel Systems Integration
-The component that interfaces with external travel systems (e.g., SABRE, APOLLO, Hotel, car rental) for real-time updates.
-### Suppliers help support
-The help line for travelers to suppliers. They have read access to shared trips of travellers.
+| Role                                 | Description                                                                             |
+|--------------------------------------|-----------------------------------------------------------------------------------------|
+| Travel Assistant                     | Actor which acts as the preferred travel agency agent for quick problem resolution.      |
+| Traveler                             | The actual Traveler interacting with the Road Warrior system.                            |
+| Email Integration                    | The module responsible for polling and processing travel-related emails.                 |
+| Sharing and Social Media Integration | The module responsible for enabling users to share trip information on social media platforms. |
+| Travel Systems Integration           | The component that interfaces with external travel systems (e.g., SABRE, APOLLO, Hotel, car rental) for real-time updates. |
+| Suppliers Help Support               | The help line for travelers to suppliers. They have read access to shared trips of travelers. |
 
 ## Technical Context
 We only name the name protocols and formats, which must be refined later.
@@ -35,112 +32,81 @@ For Authentication we will use ID Provider which support OAuth/OID protocol.
 ### Actors Relations
 ![context](../diagrams/Road_Warrior_UseCases-Actors_relations.png)
 
-**Traveller** - Person who travel and need to get all of the data.
-
-**Co-traveller** - Person who wants to travel together and need to book same flight/hotel.
-
-**Travel Observer** - Person who tracks the trip progress. For example transfer service or close friend.
-
-**Secretary or Travel Assistant** - Some person who assists with booking and tracking changes. For most of users it will be probably wife or husband.
-
-**RoadWarrior employees** receive feedback via FMB. Normally no direct communication required.
-
-**Supplier contact** contact from Airlines, Taxi, Bus or other trip supplier for emergency situations.
+| Role                            | Description                                                                                        |
+|---------------------------------|----------------------------------------------------------------------------------------------------|
+| Traveller                       | Person who travels and needs to get all the data.                                                  |
+| Co-traveller                    | Person who wants to travel together and needs to book the same flight/hotel.                         |
+| Travel Observer                 | Person who tracks the trip progress. For example, transfer service or a close friend.               |
+| Secretary or Travel Assistant   | Some person who assists with booking and tracking changes. For most users, it will probably be a wife or husband. |
+| RoadWarrior employees           | Receive feedback via FMB. Normally no direct communication required.                                |
+| Supplier Contact                | Contact from Airlines, Taxi, Bus, or other trip suppliers for emergency situations.                |
 
 
 ### Traveller's
 ![context](../diagrams/Road_Warrior_UseCases-UC_Traveller.png)
 
-**Get Upcoming trips** - basic view to the trips that are not ended
+| Function                        | Description                                                                                                                         |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Get Upcoming Trips               | Basic view of trips that are not ended.                                                                                             |
+| Create Blank Trip                | Create a new trip.                                                                                                                  |
+| Get All Trips                    | Obtain a full list of trips.                                                                                                        |
+| Get Passed Trips                 | Get a list of trips that have already ended. Useful for travel reporting.                                                            |
+| Get Trip Overview                | Basic functionality to view certain trip details.                                                                                    |
+| Create New Shoulder              | Manually add new information parts, such as a new taxi or train.                                                                    |
+| Get Shoulder Details             | Get all the details for a particular part of the trip, including booking numbers and necessary identification data like QR or bar codes. |
+| Edit Shoulder                    | Change booking details in the system based on updates received via alternative channels (e.g., phone) or unprocessed emails.         |
+| Delete Shoulder                  | Remove current supplier information.                                                                                                 |
+| Get Supplier Contacts            | Obtain first contact information for a supplier for emergency cases (e.g., taxi didn't appear, need to know where to call).          |
+| Observe Sharings                 | Get a list of shared links.                                                                                                         |
+| Create Sharing Link              | Create a new link to share with an Observer via a particular email.                                                                  |
+| Send Sharing Link                | Send the link to the Observer.                                                                                                      |
+| Revoke Link                      | Revoke a link if it was shared with the wrong recipient.                                                                            |
+| Create Text Export               | Create an export in text format for Co-travellers with similar bookings.                                                            |
+| Send Text Booking Export         | Send the created text export to Co-travellers.                                                                                       |
+| Get Trip Change Notification     | Receive notifications about urgent trip updates.                                                                                     |
+| Yearly Report                    | Receive a yearly report about travel information, routes, frequency, and more.                                                      |
+| Email Feedback Channel           | Send feedback to developers via email.                                                                                               |
 
-**Create Blank trip** - create new trip.
-
-**Get all of the trips** - to have full list of trips
-
-**Get passed trips** - get list of trips that are already ended. It might be required for travel reporting. 
-
-**Get Trip overiew** - basic functionality to view certain trip details.
-
-**Create new shoulder** - manuall adding of the new information part. Like new taxi or new train.
-
-**Get shoulder details** - get all of the details for particular part of the trip. That should include the booking number all necessary identification data like QR or bar codes.
-
-**Edit shoulder** - change booking details in the system according to other changes. Most usable case is that we have new updates received via alternative channel (like by phone) or email was not parsed.
-
-**Delete shoulder** - remove current supplier information. 
-
-**Get supplier contacts** - getting first contact information for supplier for emergency case. For example taxi didn't appear - where to call.
-
-**Observe sharings** - get list of shared links. 
-
-**Create sharing link** - create new link to share with Observer with particular email.
-
-**Send sharing link** - send the link to the Observer.
-
-**Revoke link** - revoke link if it was shared to a wrong round.
-
-**Create text export** - create export for Co-traveller that can be shared in a text format for similar bookings.
-
-**Send text booking export** - send created text export to Co-traveller.
-
-**Get trip change notification** - receive notification about urgent update.
-
-**Yearly report** - receive yearly report about travel information, routes, frequency and so on...
-
-**Email feedback channel** - send feedback to developers.
 
 ### Co-Traveller's
 ![context](../diagrams/Road_Warrior_UseCases-UC_Co-traveller.png)
 
-**Receive text export** - get a list of Flights, Hotel names and all relevant for booking data to book same flights.
-
-**Book same flights, hotels ...** - book same flight to seat together. 
+| Function                               | Description                                                           |
+|----------------------------------------|-----------------------------------------------------------------------|
+| Receive Text Export                    | Get a list of flights, hotel names, and all relevant booking data to book the same flights. |
+| Book Same Flights, Hotels, etc.        | Book the same flights to sit together and book the same hotels, etc.  |
 
 ### Observer
 ![context](../diagrams/Road_Warrior_UseCases-UC_Observer.png)
 
-**Receive sharing link** - get the link to the tracking some friend or client.
-
-**Get trip overview including latest changes** - get overview where the person is.
-
-**Get shoulder details** - get exact details about trip part (like airplane) to get more details about the status. 
-
-**Get supplier contacts** - get emergency contact if status is not representative but data is required. 
+| Function                                   | Description                                                            |
+|--------------------------------------------|------------------------------------------------------------------------|
+| Receive Sharing Link                       | Get the link to track a friend or client's trip.                        |
+| Get Trip Overview Including Latest Changes | Obtain an overview of the trip, including the latest updates.          |
+| Get Shoulder Details                        | Get precise details about a trip part (e.g., airplane) for a more comprehensive status update. |
+| Get Supplier Contacts                       | Obtain emergency contact information if the status is not representative but data is required. |
 
 ### Secretary
 ![context](../diagrams/Road_Warrior_UseCases-UC_Secretary.png)
 
-**Get Upcoming trips** - basic view to the trips that are not ended
-
-**Create Blank trip** - create new trip.
-
-**Get all of the trips** - to have full list of trips
-
-**Get passed trips** - get list of trips that are already ended. It might be required for travel reporting. 
-
-**Get Trip overiew** - basic functionality to view certain trip details.
-
-**Create new shoulder** - manuall adding of the new information part. Like new taxi or new train.
-
-**Get shoulder details** - get all of the details for particular part of the trip. That should include the booking number all necessary identification data like QR or bar codes.
-
-**Edit shoulder** - change booking details in the system according to other changes. Most usable case is that we have new updates received via alternative channel (like by phone) or email was not parsed.
-
-**Delete shoulder** - remove current supplier information. 
-
-**Get supplier contacts** - getting first contact information for supplier for emergency case. For example taxi didn't appear - where to call.
-
-**Observe sharings** - get list of shared links. 
-
-**Create sharing link** - create new link to share with Observer with particular email.
-
-**Send sharing link** - send the link to the Observer.
-
-**Revoke link** - revoke link if it was shared to a wrong round.
-
-**Create text export** - create export for Co-traveller that can be shared in a text format for similar bookings.
-
-**Send text booking export** - send created text export to Co-traveller.
+| Function                        | Description                                                                                         |
+|---------------------------------|-----------------------------------------------------------------------------------------------------|
+| Get Upcoming Trips               | Basic view of trips that have not ended.                                                            |
+| Create Blank Trip                | Create a new trip.                                                                                 |
+| Get All Trips                    | Obtain a full list of all trips.                                                                   |
+| Get Passed Trips                 | Get a list of trips that have already ended. Useful for travel reporting.                            |
+| Get Trip Overview                | Basic functionality to view certain trip details.                                                   |
+| Create New Shoulder              | Manually add new information parts, such as a new taxi or train.                                   |
+| Get Shoulder Details             | Get all the details for a particular part of the trip, including booking numbers and necessary identification data like QR or bar codes. |
+| Edit Shoulder                    | Change booking details in the system based on updates received via alternative channels (e.g., phone) or unprocessed emails.        |
+| Delete Shoulder                  | Remove current supplier information.                                                                |
+| Get Supplier Contacts            | Obtain emergency contact information for a supplier in case of emergencies (e.g., taxi did not appear - where to call).           |
+| Observe Sharings                 | Get a list of shared links.                                                                         |
+| Create Sharing Link              | Create a new link to share with an Observer using a particular email.                               |
+| Send Sharing Link                | Send the link to the Observer.                                                                      |
+| Revoke Link                      | Revoke a link if it was shared with the wrong recipient.                                           |
+| Create Text Export               | Create an export in text format for Co-travellers with similar bookings.                             |
+| Send Text Booking Export         | Send the created text export to Co-travellers.                                                      |
 
 [<<Previous Page](./02_Constraints.md) ---- [Next Page >>](./04_Solution_Strategy.md)
 
